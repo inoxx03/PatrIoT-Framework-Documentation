@@ -27,7 +27,7 @@ There are 2 main types of `Device`.
 Sensor:: A simple device that contains and performs operations on a single `DataFeed`.
 Composition:: Solves a problem, that not all devices are sources of just one type of data. For example commonly known DHT11 temperature-humidity sensor is working with two values simultaneously. This requires possibility to define multiple DataFeeds for one device
 
- Library provides few preconfigured devices that are ready for use. Idea behind them is to simplify creation process for user in case he want to create commonly known devices, but to offer him freedom in configuring his own.
+The library provides few preconfigured devices that are ready for use. Idea behind them is to simplify creation process for user in case he want to create commonly known devices, but to offer him freedom in configuring his own.
 Default
 Hygrometer
 Thermometer
